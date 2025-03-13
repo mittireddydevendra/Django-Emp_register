@@ -1,0 +1,28 @@
+->.empolyee_project
+|
+|
++--->.empolyee_register(app folder)
+|  |
+|  |
+|  +---->.migrations (includes files related to migrations)
+|  |
+|  +--->.templates
+|  |   |-->empolyee_register
+|  |   |  |--base.html
+|  |   |  |--employee_form.html 
+|  |   |  |--employee_list.html
+|  |   
+|  |---models.py
+|  |---forms.py
+|  |---urls.py
+|  |---views.py
+|  
+|
++---->.empolyee_project(project folder)
+|   |
+|   |---settings.py
+|   |---urls.py
+|
+
+
+
