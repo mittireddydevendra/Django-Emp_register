@@ -56,4 +56,4 @@ def employee_form(request, id=0):
 def employee_delete(request,id):
     employee =Employee.objects.get(pk=id)  
     employee.delete()      
-    return
+    return redirect('employee_list')
